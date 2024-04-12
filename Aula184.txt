@@ -1,0 +1,7 @@
+Prezado $nome,
+
+Informamos que sua mensalidade será cobrada no valor de $valor no dia $data.
+Tel: $telefone
+Atenciosamente,
+
+$empresa
