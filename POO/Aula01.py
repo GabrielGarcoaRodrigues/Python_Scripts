@@ -31,10 +31,10 @@ class Carro:
         return f'O {self.modelo} está acelerando'
    
 
+golf = Carro("Golf GTI", 2019, "Branco")
 
-carro1 = Carro("Golf GTI", 2019, "Branco")
-
-carro1.buzinar()
-print(carro1.acelerar())
-print(carro1.modelo)
-print(carro1.__str__())
+golf.buzinar()
+print(golf.acelerar())
+print(golf.modelo)
+print(golf.__str__())
+Carro.buzinar(golf)
