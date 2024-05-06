@@ -33,4 +33,10 @@ search_input.send_keys('Python') # Digitar Python
 search_input.submit() # Apertar Enter de outra maneira
 # search_input.send_keys(Keys.ENTER) # Apertar Enter
 
+result = chrome_browser.find_element(By.ID, 'search')
+links = result.find_elements(By.TAG_NAME, 'a')
+
+print(links[0].text)
+links[0].click()
+
 sleep(10)
