@@ -1,0 +1,5 @@
+Olá, mundo!
+Este é o meu arquivo de texto.
+Linha 1
+Linha 2
+Linha 3
